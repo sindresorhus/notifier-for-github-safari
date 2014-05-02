@@ -7,7 +7,7 @@
 
 ## Install
 
-Install [here](https://github.com/sindresorhus/github-notifier-safari/raw/master/GitHub%20Notifier.safariextz).
+Install [here](https://raw.githubusercontent.com/sindresorhus/github-notifier-safari/master/GitHub%20Notifier.safariextz?raw=true).
 
 
 ## Related
