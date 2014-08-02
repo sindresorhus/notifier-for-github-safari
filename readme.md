@@ -1,13 +1,11 @@
-# GitHub Notifier for Safari
+# <img src="GitHub Notifier.safariextension/Icon.png" width="30"> GitHub Notifier
 
-> Extension that displays your GitHub notifications unread count
+> Safari extension - Displays your GitHub notifications unread count
 
-![](screenshot.png)
+[![](screenshot.png)][install]
 
 
-## Install
-
-Install [here](https://raw.githubusercontent.com/sindresorhus/github-notifier-safari/master/GitHub%20Notifier.safariextz?raw=true).
+## [Install][install]
 
 
 ## Related
@@ -18,3 +16,6 @@ Also available on [Chrome](https://github.com/sindresorhus/github-notifier-chrom
 ## License
 
 [MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
+
+
+[install]: https://raw.githubusercontent.com/sindresorhus/github-notifier-safari/master/GitHub%20Notifier.safariextz?raw=true
