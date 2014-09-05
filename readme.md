@@ -15,7 +15,7 @@ Also available on [Chrome](https://github.com/sindresorhus/github-notifier-chrom
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](http://sindresorhus.com)
 
 
 [install]: https://raw.githubusercontent.com/sindresorhus/github-notifier-safari/master/GitHub%20Notifier.safariextz?raw=true
