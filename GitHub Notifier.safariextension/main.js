@@ -23,7 +23,7 @@
 		});
 	}
 
-	var UPDATE_INTERVAL = 1000 * 60;
+	var UPDATE_INTERVAL = 1000 * 30;
 
 	safari.application.addEventListener('command', function (e) {
 		if (e.command === 'open-notifications') {
