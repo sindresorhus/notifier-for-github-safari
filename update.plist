@@ -10,11 +10,11 @@
 			<key>Developer Identifier</key>
 			<string>YG56YK5RN5</string>
 			<key>CFBundleVersion</key>
-			<string>1.0.3</string>
+			<string>1.1.0</string>
 			<key>CFBundleShortVersionString</key>
-			<string>1.0.3</string>
+			<string>1.1.0</string>
 			<key>URL</key>
-			<string>https://github.com/sindresorhus/github-notifier-safari/raw/master/GitHub%20Notifier.safariextz</string>
+			<string>https://raw.githubusercontent.com/sindresorhus/github-notifier-safari/master/GitHub%20Notifier.safariextz?raw=true</string>
 		</dict>
 	</array>
 </dict>
