@@ -1,11 +1,16 @@
 (function () {
 	'use strict';
 
+	var currentBadge = '';
+
 	function render(badgeText, title) {
-		var icon = safari.extension.toolbarItems[0];
-		icon.badge = badgeText;
-		icon.toolTip = title;
-		icon.disabled = badgeText === false;
+		currentBadge = badgeText;
+
+		safari.extension.toolbarItems.forEach(function (el) {
+			el.badge = badgeText;
+			el.toolTip = title;
+			el.disabled = badgeText === false;
+		});
 	}
 
 	function update() {
@@ -32,6 +37,17 @@
 			}
 		}
 	});
+
+	// update the status on new windows
+	safari.application.addEventListener('open', function () {
+		// timeout to prevent the badge to be rendered in the center
+		// seems like it has some kind of a race-issue
+		setTimeout(function () {
+			render(currentBadge, 'GitHub Notifier'); // show the cached result while loading
+		}, 0);
+
+		update();
+	}, true);
 
 	setInterval(update, UPDATE_INTERVAL);
 
