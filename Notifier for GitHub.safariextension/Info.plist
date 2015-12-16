@@ -5,9 +5,9 @@
 	<key>Author</key>
 	<string>Sindre Sorhus</string>
 	<key>Builder Version</key>
-	<string>10600.5.17</string>
+	<string>11601.3.9</string>
 	<key>CFBundleDisplayName</key>
-	<string>GitHub Notifier</string>
+	<string>Notifier for GitHub</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.sindresorhus.githubnotifier</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -30,7 +30,7 @@
 				<key>Image</key>
 				<string>toolbar-icon.png</string>
 				<key>Label</key>
-				<string>GitHub Notifier</string>
+				<string>Notifier for GitHub</string>
 			</dict>
 		</array>
 	</dict>
@@ -59,9 +59,7 @@
 			<string>Some</string>
 		</dict>
 	</dict>
-	<key>Update Manifest URL</key>
-	<string>https://github.com/sindresorhus/github-notifier-safari/raw/master/update.plist</string>
 	<key>Website</key>
-	<string>https://github.com/sindresorhus/github-notifier-safari</string>
+	<string>https://github.com/sindresorhus/notifier-for-github-safari</string>
 </dict>
 </plist>

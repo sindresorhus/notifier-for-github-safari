@@ -16,7 +16,7 @@
 	function update() {
 		gitHubNotifCount(function (count) {
 			if (count !== false) {
-				render(count, 'GitHub Notifier');
+				render(count, 'Notifier for GitHub');
 			} else {
 				render(false, 'You have to be connected to the internet and logged into GitHub');
 			}
@@ -43,7 +43,7 @@
 		// timeout to prevent the badge to be rendered in the center
 		// seems like it has some kind of a race-issue
 		setTimeout(function () {
-			render(currentBadge, 'GitHub Notifier'); // show the cached result while loading
+			render(currentBadge, 'Notifier for GitHub'); // show the cached result while loading
 		}, 0);
 
 		update();
