@@ -30,9 +30,9 @@
 			var win = safari.application.activeBrowserWindow;
 			var url = 'https://github.com/notifications';
 
-            var newTab = safari.application.activeBrowserWindow.openTab();
-            newTab.url = url;
-            newTab.activate();
+      var newTab = win.openTab();
+      newTab.url = url;
+      newTab.activate();
 		}
 	});
 
