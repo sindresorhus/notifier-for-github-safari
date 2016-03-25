@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Sindre Sorhus</string>
 	<key>Builder Version</key>
-	<string>11601.5.17.1</string>
+	<string>11601.3.9</string>
 	<key>CFBundleDisplayName</key>
 	<string>Notifier for GitHub</string>
 	<key>CFBundleIdentifier</key>
@@ -42,7 +42,7 @@
 	<key>Description</key>
 	<string>Displays your GitHub notifications unread count</string>
 	<key>DeveloperIdentifier</key>
-	<string>7GFU92S89J</string>
+	<string>YG56YK5RN5</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
