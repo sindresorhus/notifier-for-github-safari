@@ -28,13 +28,9 @@
 	safari.application.addEventListener('command', function (e) {
 		if (e.command === 'open-notifications') {
 			var win = safari.application.activeBrowserWindow;
-			var url = 'https://github.com/notifications';
-
-			if (win.activeTab.url) {
-				win.openTab().url = url;
-			} else {
-				win.activeTab.url = url;
-			}
+			var newTab = win.openTab();
+			newTab.url = 'https://github.com/notifications';
+			newTab.activate();
 		}
 	});
 
